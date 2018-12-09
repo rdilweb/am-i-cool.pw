@@ -1,2 +1,2 @@
-# useless-web
-A part of my site that should go on the useless web.  
+# am-i-cool.pw
+Visit the site to find out.  
