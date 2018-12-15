@@ -6,3 +6,7 @@ h1 {
     font-family: 'Bitter', serif;
     text-align: center;
 }
+
+h1:hover {
+    color: red;
+}
