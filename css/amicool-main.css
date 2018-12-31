@@ -1,12 +1,12 @@
 body {
-    min-height: 50%
+    min-height: 20%;
 }
 
 h1 {
     font-family: 'Bitter', serif;
     text-align: center;
+    font-size: 20px;
 }
 
-h1:hover {
-    color: red;
+h1:hover, h1:active {
 }
