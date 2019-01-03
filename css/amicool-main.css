@@ -9,4 +9,5 @@ h1 {
 }
 
 h1:hover, h1:active {
+    text-decoration: underline;
 }
