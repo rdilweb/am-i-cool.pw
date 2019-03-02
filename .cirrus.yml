@@ -13,6 +13,7 @@ task:
   container:
     image: ruby:latest
   auto_cancellation: true
+  gem_script: gem environment
   Install_Jekyll_script:
     - gem install github-pages
   script:
