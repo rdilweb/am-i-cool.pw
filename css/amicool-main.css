@@ -1,13 +1,13 @@
 body {
     min-height: 20%;
-}
-
-h1 {
-    font-family: 'Bitter', serif;
     text-align: center;
-    font-size: 20px;
 }
 
-h1:hover, h1:active {
+span {
+    font-family: 'Overpass', serif;
+    font-size: 90px;
+}
+
+span:hover, span:active {
     text-decoration: underline;
 }
