@@ -15,11 +15,12 @@ task:
   auto_cancellation: true
   Install_Jekyll_script:
     - gem install github-pages
-  Gem_cache:
-    folder:
-      - /usr/local/bundle
-      - /root/.gem/ruby/2.6.0
-      - /usr/local/lib/ruby/gems/2.6.0
+  Gem1_cache:
+    folder: /usr/local/bundle
+  Gem2_cache:
+    folder: /root/.gem/ruby/2.6.0
+  Gem3_cache:
+    folder: /usr/local/lib/ruby/gems/2.6.0
   script:
     - jekyll build
     - jekyll doctor
