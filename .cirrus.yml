@@ -13,14 +13,10 @@ task:
   container:
     image: ruby:latest
   auto_cancellation: true
+  Gem_cache:
+    folder: /usr/local/bundle
   Install_Jekyll_script:
     - gem install github-pages
-  Gem1_cache:
-    folder: /usr/local/bundle
-  Gem2_cache:
-    folder: /root/.gem/ruby/2.6.0
-  Gem3_cache:
-    folder: /usr/local/lib/ruby/gems/2.6.0
   script:
     - jekyll build
     - jekyll doctor
