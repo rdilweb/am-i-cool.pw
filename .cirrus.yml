@@ -15,7 +15,9 @@ task:
   auto_cancellation: true
   Gem_cache:
     folder: /usr/local/bundle
-    populate_script: gem install github-pages
+    populate_script:
+      - gem install bundler
+      - gem install github-pages
   script:
     - jekyll build
     - jekyll doctor
