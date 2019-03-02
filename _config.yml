@@ -1,0 +1,19 @@
+locale: "en"
+name: "Are you cool?"
+title: "am-i-cool.pw"
+title_separator: "-"
+timezone: America/New_York
+encoding: UTF-8
+url: https://am-i-cool.pw
+plugins:
+  - jekyll-sitemap
+repository: RDIL/am-i-cool.pw
+exclude:
+  - .bundle
+  - .jekyll-assets-cache
+  - README
+  - README.md
+  - .editorconfig
+analytics:
+  provider: false
+github_username: RDIL
