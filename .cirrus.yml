@@ -14,6 +14,6 @@ task:
     image: node:latest
   auto_cancellation: false
   Install_Tool_script:
-    - npm i -g html-lint
+    - npm install -g html-lint
   script:
-    - node html-lint --strict --verbose https://am-i-cool.pw
+    - node html-lint --strict https://am-i-cool.pw
