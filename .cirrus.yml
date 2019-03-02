@@ -1,0 +1,11 @@
+task:
+  name: CSS Lint
+  container:
+    image: node:latest
+    cpu: 4
+    memory: 10G
+  auto_cancellation: false
+  Install_Tool_script:
+    - npm install -g csslint
+  script:
+    - find . -name \*.css -exec csslint {} \;
