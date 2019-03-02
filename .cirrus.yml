@@ -14,7 +14,6 @@ task:
     image: ruby:latest
   auto_cancellation: true
   Install_Jekyll_script:
-    - gem install bundler
     - gem install github-pages
   script:
     - jekyll build
