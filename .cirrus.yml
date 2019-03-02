@@ -7,13 +7,3 @@ task:
     - npm install -g csslint
   script:
     - find . -name \*.css -exec csslint {} \;
-
-task:
-  name: HTML Lint
-  container:
-    image: node:latest
-  auto_cancellation: false
-  Install_Tool_script:
-    - npm install -g html-lint
-  script:
-    - node html-lint --strict https://am-i-cool.pw
