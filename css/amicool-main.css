@@ -10,4 +10,5 @@ span {
 
 span:hover, span:active {
     text-decoration: underline;
+    cursor: crosshair;
 }
