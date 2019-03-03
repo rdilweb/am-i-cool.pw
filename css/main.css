@@ -4,7 +4,7 @@ body {
     text-align: center;
 }
 span {
-    font-family: 'Overpass', serif;
+    font-family: 'Cabin', sans-serif;
     font-size: 90px;
 }
 span:hover {
