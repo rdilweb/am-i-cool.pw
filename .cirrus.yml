@@ -17,5 +17,5 @@ task:
     folder: /usr/local/bundle
   Populate_script: gem install github-pages
   script:
-    - bundler exec jekyll build
-    - bundler exec jekyll doctor
+    - jekyll build
+    - jekyll doctor
