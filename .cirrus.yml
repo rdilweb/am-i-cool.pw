@@ -15,7 +15,7 @@ task:
   auto_cancellation: true
   Gem_cache:
     folder: /usr/local/bundle
-    populate_script: bundler install
+  Populate_script: gem install bundler && bundler install
   script:
     - bundler exec jekyll build
     - bundler exec jekyll doctor
