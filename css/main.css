@@ -3,12 +3,10 @@ body {
     min-width: 5%;
     text-align: center;
 }
-
 span {
     font-family: 'Overpass', serif;
     font-size: 90px;
 }
-
 span:hover, span:active {
     text-decoration: underline;
     cursor: crosshair;
