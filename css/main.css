@@ -7,7 +7,7 @@ span {
     font-family: 'Overpass', serif;
     font-size: 90px;
 }
-span:hover, span:active {
+span:active, span:hover {
     text-decoration: underline;
     cursor: crosshair;
 }
