@@ -4,10 +4,13 @@ body {
     text-align: center;
 }
 span {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Cabin', serif;
     font-size: 90px;
 }
 span:hover {
     text-decoration: underline;
     cursor: crosshair;
+}
+.credit-bar {
+    position: absolute;
 }
