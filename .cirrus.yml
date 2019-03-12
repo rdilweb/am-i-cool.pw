@@ -18,9 +18,7 @@ task:
     fingerprint_script:
       - ruby -v
       - echo $OS
-      - cat Gemfile
-      - cat Gemfile.lock
-    populate_script: gem install bundler && bundler
+    populate_script: gem install github-pages
   script:
-    - bundler exec jekyll build
-    - bundler exec jekyll doctor
+    - jekyll build
+    - jekyll doctor
