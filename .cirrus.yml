@@ -15,7 +15,12 @@ task:
   auto_cancellation: true
   Gem_cache:
     folder: /usr/local/bundle
-    populate_script: gem install github-pages
+    fingerprint_script:
+      - ruby -v
+      - echo $OS
+      - cat Gemfile
+      - cat Gemfile.lock
+    populate_script: gem install bundler && bundler
   script:
-    - jekyll build
-    - jekyll doctor
+    - bundler exec jekyll build
+    - bundler exec jekyll doctor
