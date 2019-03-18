@@ -18,6 +18,7 @@ task:
     fingerprint_script:
       - ruby -v
       - echo $OS
+      - echo $CI
     populate_script: gem install github-pages
   script:
     - jekyll build
