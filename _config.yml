@@ -14,6 +14,8 @@ url: https://am-i-cool.pw
 
 plugins:
   - jekyll-sitemap
+  - jekyll-mentions
+  - jemoji
 
 repository: RDIL/am-i-cool.pw
 
