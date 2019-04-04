@@ -1,16 +1,13 @@
-body {
-    min-height: 10%;
-    min-width: 5%;
-    text-align: center;
-}
-span {
-    font-family: 'Cabin', serif;
-    font-size: 90px;
-}
-span:hover {
-    text-decoration: underline;
-    cursor: crosshair;
-}
-.credit-bar {
-    position: absolute;
+body{
+    min-height:10%;
+    min-width:5%;
+    text-align:center;
+}span{
+    font-family:'Cabin';
+    font-size:90px;
+}span:hover{
+    text-decoration:underline;
+    cursor:crosshair;
+}.credit-bar{
+    position:absolute;
 }
